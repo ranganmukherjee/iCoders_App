@@ -31,7 +31,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/courses"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:layout_weight="1"
@@ -39,7 +39,7 @@
                     app:srcCompat="@drawable/courses" />
 
                 <ImageView
-                    android:id="@+id/imageView9"
+                    android:id="@+id/educators"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:layout_weight="1"
@@ -51,7 +51,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView10"
+                    android:id="@+id/events"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:padding="@dimen/_5sdp"
@@ -59,7 +59,7 @@
                     app:srcCompat="@drawable/evenblogs" />
 
                 <ImageView
-                    android:id="@+id/imageView11"
+                    android:id="@+id/elib"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:layout_weight="1"
@@ -72,7 +72,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView12"
+                    android:id="@+id/contact"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:padding="@dimen/_5sdp"
@@ -80,7 +80,7 @@
                     app:srcCompat="@drawable/contact" />
 
                 <ImageView
-                    android:id="@+id/imageView13"
+                    android:id="@+id/about"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_180sdp"
                     android:layout_weight="1"

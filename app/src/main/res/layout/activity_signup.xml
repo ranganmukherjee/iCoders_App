@@ -89,23 +89,23 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="Email"
-                        android:inputType="textPersonName"
+                        android:inputType="textEmailAddress"
                         android:paddingTop="@dimen/_30sdp" />
                     <EditText
                         android:id="@+id/Rollno"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="Roll no."
-                        android:inputType="textPersonName"
+                        android:hint="Roll No."
+                        android:inputType="number"
                         android:paddingTop="@dimen/_30sdp" />
                     <EditText
                         android:id="@+id/Phoneno"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="phone no."
-                        android:inputType="textPersonName"
+                        android:hint="Phone No."
+                        android:inputType="number"
                         android:paddingTop="@dimen/_30sdp" />
                     <EditText
                         android:id="@+id/Yp"
@@ -113,7 +113,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="Year of passing"
-                        android:inputType="textPersonName"
+                        android:inputType="number"
                         android:paddingTop="@dimen/_30sdp" />
                     <EditText
                         android:id="@+id/Department"
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="Department"
-                        android:inputType="textPersonName"
+                        android:inputType="text"
                         android:paddingTop="@dimen/_30sdp" />
 
                     <LinearLayout

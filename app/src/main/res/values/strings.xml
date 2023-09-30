@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">iCoders</string>
+
+    <string name="about">Technology has been at the forefront of human evolution since times immemorial and to enhance this ideology among students, here\'s the official tech club of Dr. B.C. Roy Engineering College, Durgapur named iCoders. Our aim is to guide spradling students with latest technology and skills. Through our club students get access to multiple contests and also get a chance to boost up their knowledge with our weekly coding classes and frequent bootcamps. Today we have over 1000 students enrolled with us and have conducted over 40 events. This has been possible with the collaborative and inquisitive student members who are backbone for this growth.</string>
+
+    <string name="bullet_list">
+        <![CDATA[
+            <ul>
+                <li>Strengthen the technical knowledge.</li>
+                <li>To help them perform in this competitive environment.</li>
+                <li>To improve the quality through spreading knowledge by growing the competitive coding culture.</li>
+                <li>To train and educate for forthcoming technological future.</li>
+                <li>To organize various coding competitions, workshops, and seminars to help students excel in coding.</li>
+                <li>The students would benefit from this club and will have fun while learning and doing projects.</li>
+            </ul>
+         ]]>
+    </string>
+
 </resources>
