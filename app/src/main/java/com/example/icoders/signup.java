@@ -60,13 +60,13 @@ public class signup extends AppCompatActivity {
     }
     public void addStudentData(){
         String Sname = ed1.getText().toString();
-        String Semail = ed1.getText().toString();
-        String Srollno = ed1.getText().toString();
-        String Sphoneno = ed1.getText().toString();
-        String Syp = ed1.getText().toString();
-        String Sdepartment = ed1.getText().toString();
+        String Semail = ed2.getText().toString();
+        String Srollno = ed3.getText().toString();
+        String Sphoneno = ed4.getText().toString();
+        String Syp = ed5.getText().toString();
+        String Sdepartment = ed6.getText().toString();
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbzfMAnmrG1QmxBJiVJ5QeXeYj6ZyfX_dRzTAsxT5rHvc5jD_xy86ckCIGoStwk8oJyp/exec", new Response.Listener<String>() {
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbziFSojtoIPLjqKuHBb_bCXKBXrTNatxRwRPvSCtWU1duTB5KOmFKWfpFSucrHv_emv/exec", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Toast.makeText(signup.this, response, Toast.LENGTH_SHORT).show();

@@ -62,7 +62,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/email_l"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -71,7 +71,7 @@
             android:paddingTop="@dimen/_30sdp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonpassword"
+            android:id="@+id/pword_l"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -80,20 +80,22 @@
             android:paddingTop="@dimen/_30sdp" />
 
         <LinearLayout
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_30sdp"
             android:background="@drawable/rounded"
-            android:backgroundTint="@color/black"
-            android:layout_marginHorizontal="@dimen/_10sdp">
+            android:backgroundTint="@color/black">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="Login"
                 android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="@dimen/_12sdp">
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold">
 
             </TextView>
         </LinearLayout>
